@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
     //[Faizul 3]
     //Validation
     private void validate(String userName, String userPassword) {
-        if (userName.equals("Admin") && userPassword.equals("1234")) {
+        if (userName.equals("Faizul") && userPassword.equals("1234")) {
 
             ///intent use to move one activity to another activity
             Intent intn = new Intent(MainActivity.this, SecondActivity.class);
