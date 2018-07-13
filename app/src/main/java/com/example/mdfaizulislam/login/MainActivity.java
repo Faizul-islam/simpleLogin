@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
             ///intent use to move one activity to another activity
             Intent intn = new Intent(MainActivity.this, SecondActivity.class);
             startActivity(intn);
+            // atkai gesi ki korum
         } else {
             Counter--;
 
